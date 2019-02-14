@@ -64,6 +64,7 @@ options:
 	parser := &docopt.Parser{
 		HelpHandler:   docopt.NoHelpHandler,
 		SkipHelpFlags: true,
+		OptionsFirst:  true,
 	}
 
 	sc := &SshCommand{}
