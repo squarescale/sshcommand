@@ -35,7 +35,7 @@ func New(argv []string) (*SshCommand, error) {
    [-b <bind_address>] [-c <cipher_spec>] [-D <dynamic>]
    [-E <log_file>] [-e <escape_char>] [-F <configfile>] [-I <pkcs11>]
    [-i <identity_file>...] [-J <jumpspec>] [-L <address>...]
-   [-l <login_name>] [-m <mac_spec>] [-O <ctl_cmd>] [-o <option>] [-p <port>]
+   [-l <login_name>] [-m <mac_spec>] [-O <ctl_cmd>] [-o <option>...] [-p <port>]
    [-Q <query_option>] [-R <address>...] [-S <ctl_path>] [-W <host:port>]
    [-w <tunspec>] DESTINATION [COMMAND...]
 options:
@@ -53,7 +53,7 @@ options:
     -l <login_name>
     -m <mac_spec>
     -O <ctl_cmd>
-    -o <option>
+    -o <option>...
     -p <port>
     -Q <query_option>
     -R <address>...
